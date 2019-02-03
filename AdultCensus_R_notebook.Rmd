@@ -49,3 +49,8 @@ biplot(acp)
 
 ```
 
+```{r}
+options(repr.plot.width=6, repr.plot.height=6)
+coresp=CA(table(dataBase[,c(4,7)]))
+```
+
